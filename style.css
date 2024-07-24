@@ -1,230 +1,263 @@
 /* Google font */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 /* cdn font */
-@import url('https://fonts.cdnfonts.com/css/miama');
+@import url("https://fonts.cdnfonts.com/css/miama");
 
 /* Universal style */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body {
-    font-family: "Inter", sans-serif;
-  }
-  
-  /* shared style */
-  
-  #change-habit,
-  #run-easily,
-  #challenge-section,
-  #training-and-exercise,
-  #meet-our-team {
-    background-color: black;
-  }
-  section {
-    padding-bottom: 100px;
-  }
-  .section-title {
-    font-size: 48px;
-    font-weight: 900;
-    margin-bottom: 20px;
-    color: rgb(255, 255, 255);
-  }
-  .section-body {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.5px;
-    color: rgba(255, 255, 255, 0.5);
-  }
-  .btn-primary {
-    border: none;
-    font-size: 18px;
-    font-weight: 600;
-    border-radius: 40px;
-    padding: 15px 50px;
-    cursor: pointer;
-    color: rgb(255, 255, 255);
-    background: rgb(230, 83, 60);
-  }
-  
-  /* header section */
-  
-  #header {
-    background: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 1),
-      rgb(0, 0, 0, 0.9),
-      rgb(0, 0, 0, 0.9),
-      rgb(0, 0, 0, 0.9),
-      rgba(1, 0, 0, 1)
-    );
-  }
-  .navbar {
-    color: white;
-    max-width: 1060px;
-    margin: 0 auto;
-    padding: 50px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .navbar h1 {
-    font-size: 36px;
-    font-weight: 900;
-    font-style: italic;
-    color: rgb(230, 83, 60);
-  }
-  .navbar ul {
-    display: flex;
-    gap: 50px;
-    padding: 12px 30px 12px 0;
-    border-radius: 50px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-  }
-  .navbar ul li {
-    list-style: none;
-    font-size: 18px;
-    font-weight: 400;
-  }
-  .navbar ul li a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-  }
-  .nav-home a {
-    padding: 12px 30px;
-    border-radius: 50px;
-    background: rgb(230, 83, 60);
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
 
-  /* banner section */
+/* shared style */
+
+#change-habit,
+#run-easily,
+#challenge-section,
+#training-and-exercise,
+#meet-our-team {
+  background-color: black;
+}
+section {
+  padding-bottom: 100px;
+}
+.section-title {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+}
+.section-body {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.btn-primary {
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 40px;
+  padding: 15px 50px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background: rgb(230, 83, 60);
+}
+
+/* header section */
+
+#header {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1),
+    rgb(0, 0, 0, 0.9),
+    rgb(0, 0, 0, 0.9),
+    rgb(0, 0, 0, 0.9),
+    rgba(1, 0, 0, 1)
+  );
+}
+.navbar {
+  color: white;
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar h1 {
+  font-size: 36px;
+  font-weight: 900;
+  font-style: italic;
+  color: rgb(230, 83, 60);
+}
+.navbar ul {
+  display: flex;
+  gap: 50px;
+  padding: 12px 30px 12px 0;
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.navbar ul li {
+  list-style: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.nav-home a {
+  padding: 12px 30px;
+  border-radius: 50px;
+  background: rgb(230, 83, 60);
+}
+
+/* banner section */
 
 .banner {
-    color: white;
-    max-width: 1060px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .banner-text {
-    width: 50%;
-  }
-  .banner-text h1 {
-    font-size: 78px;
-    font-weight: 900;
-    line-height: 120%;
-  }
-  .banner-text h1 span {
-    font-family: 'Miama', sans-serif;     
-    font-size: 150px;
-    font-weight: 400;                           
-  }
-  .banner-text p {
-    margin: 30px 0;
-    font-size: 16px;
-  }
-  .banner-image {
-    width: 50%;
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
-  }
-  .banner-image img {
-    display: flex;
-    bottom: 0;
-    left: 200px;
-  }
-  .video-tutorial {
-    position: absolute;
-    left: 90px;
-    gap: 10px;
-    bottom: 65px;
-    padding: 20px;
-    display: flex;
-    border-radius: 15px;
-    align-items: center;
-    justify-content: center;
-    backdrop-filter: blur(8px);    
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    background: rgba(48, 48, 48, 0.54);
-  }
-  .video-tutorial h2 {
-    font-size: 24px;
-    font-weight: 900;
-    letter-spacing: .5px;
-    margin-bottom: 5px;
-  }
-  .video-tutorial p {
-    font-size: 16px;
-  }
-  .red-spot {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: rgb(230, 83, 60);
-  }
-  .free-videos {
-    position: absolute;
-    top: 125px;
-    right: -55px;
-    padding: 15px;
-    border-radius: 15px;
-    backdrop-filter: blur(8px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    background-color: rgba(42, 42, 42, 0.5);
-  }
-  .free-videos h1 {
-    font-size: 40px;
-    font-weight: 900;
-    letter-spacing: 1px;
-    margin-bottom: 5px;
-  }
-  .free-videos p {
-    font-size: 13px;
-  }
-  .download-button {
-    margin-left: 20px;
-    font-size: 18px;
-    font-weight: 600;
-    border-radius: 40px;
-    padding: 15px 50px;
-    cursor: pointer;
-    background-color: transparent;
-    color: rgb(255, 255, 255);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-  }
+  color: white;
+  max-width: 1060px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-text {
+  width: 50%;
+}
+.banner-text h1 {
+  font-size: 78px;
+  font-weight: 900;
+  line-height: 120%;
+}
+.banner-text h1 span {
+  font-family: "Miama", sans-serif;
+  font-size: 150px;
+  font-weight: 400;
+}
+.banner-text p {
+  margin: 30px 0;
+  font-size: 16px;
+}
+.banner-image {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.banner-image img {
+  display: flex;
+  bottom: 0;
+  left: 200px;
+}
+.video-tutorial {
+  position: absolute;
+  left: 90px;
+  gap: 10px;
+  bottom: 65px;
+  padding: 20px;
+  display: flex;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(48, 48, 48, 0.54);
+}
+.video-tutorial h2 {
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  margin-bottom: 5px;
+}
+.video-tutorial p {
+  font-size: 16px;
+}
+.red-spot {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgb(230, 83, 60);
+}
+.free-videos {
+  position: absolute;
+  top: 125px;
+  right: -55px;
+  padding: 15px;
+  border-radius: 15px;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: rgba(42, 42, 42, 0.5);
+}
+.free-videos h1 {
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+.free-videos p {
+  font-size: 13px;
+}
+.download-button {
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 40px;
+  padding: 15px 50px;
+  cursor: pointer;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
 
-  /* change-your-habit-section */
+/* change-your-habit-section */
 
 .change-habit-container {
+  max-width: 1060px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.habit-title {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.habit-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.habit-card {
+  color: white;
+  text-align: center;
+}
+.habit-card h2 {
+  margin: 20px 0 10px 0;
+}
+.habit-card p {
+  width: 80%;
+  margin: 0 auto;
+}
+.habit-card img {
+  border-radius: 50%;
+}
+
+/* Run an Extra Mile Easily section */
+
+.run-easily {
     max-width: 1060px;
     margin: 0 auto;
-    padding-top: 100px;
-  }
-  .habit-title {
-    width: 60%;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 80px;
-  }
-  .habit-card-container {
+    padding: 50px;
+    border-radius: 15px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    background: rgb(34, 34, 34);
   }
-  .habit-card {
-    color: white;
+  .run-easily-texts {
+    width: 60%;
+    padding-right: 200px;
+  }
+  .run-easily-texts p {
+    margin-bottom: 20px;
+    letter-spacing: .3px;
+  }
+  .run-easily-image {
+    width: 40%;
+  }
+  .run-easily-image img {
+    width: 100%;
+    border-radius: 15px;  
+  }
+  
+  /* challenge section */
+  #challenge-section h1 {
     text-align: center;
+    color: white;
   }
-  .habit-card h2 {
-    margin: 20px 0 10px 0;
-  }
-  .habit-card p {
-    width: 80%;
-    margin: 0 auto;
-  }
-  .habit-card img {
-    border-radius: 50%;
-  }
+  
