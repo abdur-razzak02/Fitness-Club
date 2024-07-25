@@ -260,4 +260,92 @@ section {
     text-align: center;
     color: white;
   }
+
+
+  
+/* training and exercise section */
+
+.exercise-container {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+.exercise-title {
+  color: white;
+}
+.exercise-body {
+  width: 50%;
+  margin-bottom: 30px;
+}
+.exercise-image-row1 {
+  display: grid;
+  margin-bottom: -5px;
+  grid-template-columns: 0.8fr 1.5fr 1fr;
+}
+.exercise-image-row1 img {
+  width: 100%;
+  height: 220px;
+}
+.row1-images1,
+.row1-images2,
+.row1-images3,
+.row2-images1,
+.row2-images2,
+.row2-images3 {
+  position: relative;
+}
+.row1-images1 p {
+  color: white;
+  position: absolute;
+  font-size: 35px;
+  bottom: 15%;
+  left: 10%;
+}
+.row1-images2 p {
+  color: white;
+  position: absolute;
+  font-size: 35px;
+  top: 10%;
+  left: 8%;
+}
+.row1-images3 p {
+  color: white;
+  position: absolute;
+  font-size: 35px;
+  bottom: 15%;
+  left: 10%;
+}
+
+.exercise-image-row2 {
+  display: grid;
+  grid-template-columns: 1.4fr 0.8fr 1fr;
+}
+.exercise-image-row2 img {
+  width: 100%;
+  height: 220px;
+  
+}
+.row2-images1 p {
+  color: white;
+  position: absolute;
+  font-size: 35px;
+  top: 10%;
+  right: 10%;
+}
+.row2-images1 img {
+  filter: brightness(0.5);
+}
+.row2-images2 p {
+  color: white;
+  position: absolute;
+  font-size: 35px;
+  bottom: 10%;
+  left: 10%;
+}
+.row2-images3 p {
+  color: white;
+  position: absolute;
+  font-size: 35px;
+  bottom: 10%;
+  left: 10%;
+}
   
