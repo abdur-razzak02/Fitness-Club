@@ -232,37 +232,35 @@ section {
 /* Run an Extra Mile Easily section */
 
 .run-easily {
-    max-width: 1060px;
-    margin: 0 auto;
-    padding: 50px;
-    border-radius: 15px;
-    display: flex;
-    background: rgb(34, 34, 34);
-  }
-  .run-easily-texts {
-    width: 60%;
-    padding-right: 200px;
-  }
-  .run-easily-texts p {
-    margin-bottom: 20px;
-    letter-spacing: .3px;
-  }
-  .run-easily-image {
-    width: 40%;
-  }
-  .run-easily-image img {
-    width: 100%;
-    border-radius: 15px;  
-  }
-  
-  /* challenge section */
-  #challenge-section h1 {
-    text-align: center;
-    color: white;
-  }
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 15px;
+  display: flex;
+  background: rgb(34, 34, 34);
+}
+.run-easily-texts {
+  width: 60%;
+  padding-right: 200px;
+}
+.run-easily-texts p {
+  margin-bottom: 20px;
+  letter-spacing: 0.3px;
+}
+.run-easily-image {
+  width: 40%;
+}
+.run-easily-image img {
+  width: 100%;
+  border-radius: 15px;
+}
 
+/* challenge section */
+#challenge-section{
+  text-align: center;
+  color: white;
+}
 
-  
 /* training and exercise section */
 
 .exercise-container {
@@ -322,7 +320,6 @@ section {
 .exercise-image-row2 img {
   width: 100%;
   height: 220px;
-  
 }
 .row2-images1 p {
   color: white;
@@ -348,8 +345,6 @@ section {
   bottom: 10%;
   left: 10%;
 }
-
-
 
 /* bmi-calculator-title */
 
@@ -385,7 +380,7 @@ section {
 th,
 td {
   padding: 15px;
-  border-collapse: collapse;  
+  border-collapse: collapse;
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 .bmi-chart h1 {
@@ -436,4 +431,56 @@ select {
 }
 .bmi-input2 select option {
   padding: 30px;
+}
+
+/* meet our team */
+
+.meet-team-container {
+  max-width: 1060px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.our-team-title {
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  width: 60%;
+  margin-bottom: 50px;
+}
+.trainer-images {
+  padding: 30px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+}
+.trainer-images img {
+  width: 100%;
+  height: 250px;
+  border-radius: 15px;
+}
+.trainer-image-row1,
+.trainer-image-row2 {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.trainer-image-row1 > div,
+.trainer-image-row2 > div {
+  position: relative;
+}
+.trainer-image-row1 {
+  margin-bottom: 30px;
+}
+.trainer-images h3 {
+  position: absolute;
+  font-size: 20px;
+  bottom: 14%;
+  left: 5%;
+  color: rgb(255, 255, 255);
+}
+.trainer-images p {
+  position: absolute;
+  font-size: 16px;
+  bottom: 6%;
+  left: 5%;
+  color: rgb(255, 255, 255, 0.5);
 }
