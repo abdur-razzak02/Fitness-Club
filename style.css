@@ -780,6 +780,42 @@ select {
     border-radius: 50%;
   }
 
+  /* why-choose-us section */
+
+  #why-choose-us{
+    padding: 0 20px;
+  }
+  .choose-title{
+    width: 100%;
+  }
+  .choose-title h1{
+    font-size: 32px;
+  }
+  .choose-content{
+    flex-direction: column;
+  }
+  .text-section{
+    width: 100%;
+    padding-right: 0;
+    grid-template-columns: 1fr;
+  }
+  .image-section{
+    width: 100%;
+  }
+
+  /* pricing section */
+
+  #pricing-table{
+    padding: 50px 20px;
+  }
+  .pricing-plans{
+    flex-direction: column;
+  }
+  .plan{
+    width: 80%;
+    margin: 0 auto;
+  }
+
   /* Run an Extra Mile Easily section */
 
   .run-easily {
@@ -1047,6 +1083,51 @@ select {
   .habit-card p {
     margin-bottom: 40px;
   }
+
+
+
+
+
+
+  /* why-choose-us section */
+
+  #why-choose-us{
+    padding: 0 30px;
+  }
+  .choose-title{
+    width: 100%;
+  }
+  .choose-content{
+    flex-direction: column;
+  }
+  .text-section{
+    width: 100%;
+    padding-right: 0;
+  }
+  .image-section{
+    width: 100%;
+  }
+
+  /* why-choose-us section */
+
+  #pricing-table{
+    padding: 50px 20px;
+  }
+  .pricing-plans{
+    flex-direction: column;
+  }
+  .plan{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+
+
+
+
+
+
+
 
   /* Run an Extra Mile Easily section */
 
