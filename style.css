@@ -751,7 +751,7 @@ select {
   /* change your habit */
 
   #change-habit {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     padding-top: 20px;
   }
   .change-habit-container {
@@ -798,6 +798,7 @@ select {
   .text-section{
     width: 100%;
     padding-right: 0;
+    margin-bottom: 20px;
     grid-template-columns: 1fr;
   }
   .image-section{
@@ -819,6 +820,9 @@ select {
 
   /* Run an Extra Mile Easily section */
 
+  #run-easily{
+    padding-bottom: 50px;
+  }
   .run-easily {
     padding: 20px;
     margin: 0 20px;
