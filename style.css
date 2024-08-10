@@ -235,15 +235,15 @@ section {
 
 /* why-choose-us section */
 
-#why-choose-us{
+#why-choose-us {
   padding-bottom: 50px;
 }
 .why-choose-us {
   max-width: 1060px;
   margin: 0 auto;
 }
-.choose-title{
-  width:60%;
+.choose-title {
+  width: 60%;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 50px;
@@ -282,7 +282,7 @@ section {
   align-items: center;
   grid-template-columns: 1fr 1fr;
 }
-.choose-gym-image{
+.choose-gym-image {
   display: flex;
   gap: 20px;
   flex-direction: column;
@@ -321,12 +321,12 @@ section {
   color: white;
 }
 .header.basic {
-  background: linear-gradient(135deg, #00c6ff, #0072ff); 
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
 }
 .header.standard {
   background: linear-gradient(135deg, #ff416c, #ff4b2b);
 }
-.header.premium {  
+.header.premium {
   background: linear-gradient(135deg, #7f00ff, #e100ff);
 }
 .price {
@@ -355,7 +355,7 @@ section {
 .features li {
   margin: 10px 0;
   font-size: 1em;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   color: rgb(255, 255, 255, 0.5);
 }
 .features .check {
@@ -379,7 +379,8 @@ section {
 .order-button:hover {
   background-color: #555;
 }
-.header h2, .header p {
+.header h2,
+.header p {
   margin: 0;
 }
 .header h2 {
@@ -412,6 +413,8 @@ section {
 .run-easily-image img {
   width: 100%;
   border-radius: 15px;
+  object-fit: none;
+  object-position: 65% 28%;
 }
 
 /* challenge section */
@@ -572,6 +575,7 @@ select {
 .bmi-input3 select {
   width: 100%;
   color: gray;
+  padding: 15px;
   margin-bottom: 20px;
 }
 .bmi-input2 select option {
@@ -672,14 +676,16 @@ select {
 }
 .footer-menu ul {
   font-size: 25px;
-  font-weight: 400;
-  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;  
 }
 .footer-menu ul li {
   list-style: none;
   margin-bottom: 20px;
 }
-
+.footer-menu ul li a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+}
 
 /* media query for mobile device */
 
@@ -783,44 +789,44 @@ select {
 
   /* why-choose-us section */
 
-  #why-choose-us{
+  #why-choose-us {
     padding: 0 20px;
   }
-  .choose-title{
+  .choose-title {
     width: 100%;
   }
-  .choose-title h1{
+  .choose-title h1 {
     font-size: 32px;
   }
-  .choose-content{
+  .choose-content {
     flex-direction: column;
   }
-  .text-section{
+  .text-section {
     width: 100%;
     padding-right: 0;
     margin-bottom: 20px;
     grid-template-columns: 1fr;
   }
-  .image-section{
+  .image-section {
     width: 100%;
   }
 
   /* pricing section */
 
-  #pricing-table{
+  #pricing-table {
     padding: 50px 20px;
   }
-  .pricing-plans{
+  .pricing-plans {
     flex-direction: column;
   }
-  .plan{
+  .plan {
     width: 80%;
     margin: 0 auto;
   }
 
   /* Run an Extra Mile Easily section */
 
-  #run-easily{
+  #run-easily {
     padding-bottom: 50px;
   }
   .run-easily {
@@ -1020,9 +1026,12 @@ select {
     font-size: 50px;
   }
   .footer-menu h2 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
     margin-bottom: 20px;
+  }
+  .footer-menu li{
+    font-size: 18px;
   }
   .footer-menu-items {
     grid-template-columns: 1fr;
@@ -1089,34 +1098,29 @@ select {
     margin-bottom: 40px;
   }
 
-
-
-
-
-
   /* why-choose-us section */
 
-  #why-choose-us{
+  #why-choose-us {
     padding: 0 30px;
   }
-  .choose-title{
+  .choose-title {
     width: 100%;
   }
-  .choose-content{
+  .choose-content {
     flex-direction: column;
   }
-  .text-section{
+  .text-section {
     width: 100%;
     padding-right: 0;
     margin-bottom: 20px;
   }
-  .image-section{
+  .image-section {
     width: 100%;
   }
 
   /* why-choose-us section */
 
-  #pricing-table{
+  #pricing-table {
     padding: 50px 30px 100px 30px;
   }
 
@@ -1203,9 +1207,8 @@ select {
     padding: 30px 0 20px 0;
     grid-template-columns: 1fr;
   }
-  .footer-title{
+  .footer-title {
     width: 70%;
     margin-bottom: 20px;
   }
-
 }
